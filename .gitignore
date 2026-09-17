@@ -1,0 +1,21 @@
+# Visual Studio / Plantillas
+.vs/
+*.sln
+*.slnx
+*.vcxproj*
+Plantill.*/
+main.cu
+
+# Binarios y compilacion
+x64/
+x86/
+Debug/
+Release/
+*.exe
+*.exp
+*.lib
+*.obj
+*.pdb
+*.tlog
+*.idb
+*.ilk
