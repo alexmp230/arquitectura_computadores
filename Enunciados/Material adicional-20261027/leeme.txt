@@ -1,0 +1,28 @@
+﻿////////////////////////////////////////////////////
+//
+// ARQUITECTURA DE COMPUTADORES
+// 2º Grado en Ingenieria Informática
+//
+// Introducción a la programación en CUDA C/C++
+//
+////////////////////////////////////////////////////
+
+Para realizar las prácticas relacionadas con imágenes debemos incluir en nuestras carpetas de trabajo algunos archivos adicionales.
+En particular, debemos incluir en nuestro código fuente el siguiente archivo de cabecera para la impresión gráfica por pantalla con OpenGL:
+
+#include "gpu_bitmap.h"
+-> El archivo gpu_bitmap.h se debe colocar en la misma carpeta que nuestro fichero fuente .cu
+
+Además de este archivo se deben incorporar los siguientes:
+
+<1> glut.h
+<2> glext.h
+-> Se deben colocar en la misma carpeta que nuestro fichero fuente .cu
+
+<3> glut32.lib
+<4> glut64.lib
+-> Se deben colocar en la misma carpeta que nuestro fichero fuente .cu
+
+<5> glut32.dll
+<6> glut64.dll
+-> Se deben colocar en la misma carpeta que nuestro fichero ejecutable .exe
